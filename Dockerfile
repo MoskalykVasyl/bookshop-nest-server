@@ -23,4 +23,4 @@ COPY . .
 RUN npm run build
 
 # Вказуємо команду запуску
-CMD ["node", "dist/main"]
+CMD ["npm", "run", "start:prod"]
